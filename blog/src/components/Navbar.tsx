@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { Poppins } from "next/font/google";
 
-const poppins = Poppins({ weight: "400", subsets: ["latin"] });
+const poppins = Poppins({ weight: "700", subsets: ["latin"] });
 
 interface Props {
     links: Array<{ href: string, text: string }>
@@ -13,16 +13,16 @@ interface Props {
 export default function Navbar(props: Props) {
     const [show, setShow] = useState(false);
     return (
-        <nav role="navigation" className="w-screen absolute top-0 left-0 flex justify-between items-center bg-secondary text-primary z-50 font-thin text-lg" style={{ fontFamily: poppins.style.fontFamily}}>
-            <div className="flex justify-center items-center ml-6">
+        <nav role="navigation" className="w-screen absolute top-0 left-0 flex justify-end md:justify-center items-center bg-white text-primary z-50 h-[50px] font-thin text-2xl" style={{ fontFamily: poppins.style.fontFamily}}>
+            {/*<div className="flex justify-center items-center ml-6">
                 <Link href={"/"}>
                     <img loading="lazy" src="/logo.png" alt="Logo" className="h-[50px] p-1"/>
                 </Link>
-            </div>
+            </div>*/}
             <div className="hidden md:flex justify-center items-center mr-4 gap-4">
                 {props.links.map((link) => {
                     return (
-                        <Link href={link.href} key={link.href} className="transition-colors hover:text-primary-accent">{link.text}</Link>
+                        <Link href={link.href} key={link.href} className="transition-colors hover:text-primary-accent hover:border-b-[1px] border-primary">{link.text}</Link>
                     )
                 })}
             </div>
@@ -33,7 +33,7 @@ export default function Navbar(props: Props) {
                     </svg>
                 </button>
             </div>
-            <div className={cn("fixed top-0 w-screen h-screen bg-white flex-col justify-between items-center transition-all text-primary", show ? "right-0" : "right-[-100%]")}>
+            <div className={cn("fixed top-0 w-screen h-screen bg-white flex-col justify-between items-center transition-all text-primary", show ? "right-0" : "right-[-220%] xl:right-[-120%]")}>
                 <div className="w-[95%] h-auto flex flex-col justify-start items-start p-7">
                     <button onClick={() => {setShow(!show)}} className="absolute top-[14px]">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">

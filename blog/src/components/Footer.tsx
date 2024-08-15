@@ -22,7 +22,7 @@ export default function Footer() {
                 </div>
                 <div className="flex flex-col gap-2 justify-center items-start w-[200px] md:w-[300px]">
                     <h4 className="font-semibold text-lg">Disclaimer</h4>
-                    <p className="text-start font-thin">Die bereitgestellten Inhalte sind ausschließlich zu Informations- und Bildungszwecken und ersetzen keine therapeutische oder medizinische Beratung. Bei medizinischen oder psychischen Problemen solltest du stets professionelle Hilfe in Anspruch nehmen. Mehr Informationen <Link className="text-primary-accent link" href={"/disclaimer"}>hier</Link>.</p>
+                    <p className="text-start font-thin text-white">Die bereitgestellten Inhalte sind ausschließlich zu Informations- und Bildungszwecken und ersetzen keine therapeutische oder medizinische Beratung. Bei medizinischen oder psychischen Problemen solltest du stets professionelle Hilfe in Anspruch nehmen. Mehr Informationen <Link className="text-primary-accent" href={"/disclaimer"}>hier</Link>.</p>
                 </div>
             </div>
             <div className="flex flex-row justify-evenly items-center gap-5">
@@ -43,7 +43,7 @@ export default function Footer() {
                 </Link>
             </div>
             <div className="w-full flex flex-col md:flex-row justify-around text-secondary mt-2">
-                <p className="font-bold">Designed by <Link className="text-primary-accent" href={"https://white-maine.com"}>Whitemaine</Link></p>
+                <p className="font-bold">Designed by <Link className="text-primary-accent" href={"https://white-maine.com"}>White-Maine.com</Link></p>
                 <p className="font-bold">&copy; {new Date().getFullYear()} BeHappyCoaching</p>
             </div>
         </footer>

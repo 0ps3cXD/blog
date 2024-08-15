@@ -21,18 +21,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const Links = [
-
     { href: "/", text: "Home" },
-
     { href: "/books", text: "Bücher" },
-
     { href: "/coachings", text: "Coachings" },
-
     { href: "/contact", text: "Kontakt" },
-
   ];
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/icons/favicon.ico" type="image/x-icon" sizes="any" />
+      </head>
       <body className={cn("h-fit flex flex-col", inter.className)}>
         <Navbar links={Links}/>
         {children}
