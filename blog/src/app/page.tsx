@@ -68,7 +68,7 @@ export default function Home() {
       </section>
       <div className="flex flex-col translate-y-[-50px] md:translate-y-[-100px] xl:translate-y-[-250px] gap-5 md:gap-7 xl:gap-[100px]">
         <section className="w-screen flex justify-center items-center transition-all" aria-label="welcome">
-          <div className="w-[85%] md:w-[65%] px-4 py-10 flex justify-center items-center flex-col bg-secondary rounded-xl gap-3 xl:gap-7" style={{}}>
+          <div className="w-[85%] md:w-[65%] px-4 py-10 flex justify-center items-center flex-col bg-secondary box-wrapper rounded-xl gap-3 xl:gap-7" style={{}}>
             <h2 className="text-xl md:text-3xl xl:text-4xl text-primary-accent text-center" style={{ fontFamily: dancing_script.style.fontFamily}}>Dein Weg zu einem erfüllten Leben</h2>
             <h1 className="text-xl text-center text-pretty md:text-4xl xl:text-5xl text-primary" style={{ fontFamily: b_poppins.style.fontFamily, fontWeight: 900 }}>Willkommen bei BeHappyCoaching&copy;</h1>
             <p className="md:text-lg xl:text-2xl max-w-[90%] md:max-w-[70%] text-center text-pretty" style={{ fontFamily: poppins.style.fontFamily }}>Wie wäre es, wenn du ohne großen Aufwand phänomenale Veränderungen in deinem Leben erreichen könntest, die bisher unerreichbar schienen? Bei BeHappyCoaching bieten wir dir genau diese Möglichkeit. Stell dir vor, du könntest beruflich und privat erfolgreich und erfüllt sein, unabhängig von den äußeren Umständen. Mit den richtigen Tools und Methoden kannst du dein Leben mit Anmut und Freude dorthin lenken, wo du es haben möchtest.</p>
@@ -77,9 +77,9 @@ export default function Home() {
         <section className="w-screem flex flex-col md:flex-col justify-evenly items-center transition-all translate-y-[-50px] md:translate-y-[-120px] gap-[10px] " aria-label="mockup">
           <div className="w-[95%] flex flex-col md:flex-row justify-center items-center gap-[50px]">
             <div className="max-h-[700px] lg:max-h-[50rem]">
-              <img src="/caroline_bono_hoerler_coaching.png" className="max-h-[700px] lg:max-h-[50rem]" />
+              <img src="/caroline_bono_hoerler_coaching.png" className="max-h-[700px] lg:max-h-[50rem] box-wrapper" />
             </div>
-            <div className="w-[95%] md:w-[50%] flex flex-col justify-center items-center gap-[50px] xl:gap-[25px]">
+            <div className="w-[95%] md:w-[50%] flex flex-col justify-center items-center gap-[50px] xl:gap-[25px] z-10">
               <img src="/logo.png" className="max-w-[20%]"/>
               <div className="w-[95%] md:w-[90%] h-[60%] px-4 py-10 flex justify-center items-center flex-col bg-sand rounded-xl gap-5 xl:gap-7">
                 <h1 style={{ fontFamily: "theseasons" }} className="text-black text-5xl font-sans text-center">Hey, ich bin<br/> <span className="text-primary" style={{ fontFamily: dancing_script.style.fontFamily}}>Caroline Bono-Hörler!</span></h1>
@@ -111,13 +111,13 @@ export default function Home() {
             <h1 style={{ fontFamily: b_dancing_script.style.fontFamily}} className="font-sans text-7xl md:text-8xl font-bold ml-8">"Jeder will glücklich und erfolgreich sein."</h1>
           </div>
           <div className="w-[95%] flex flex-col md:flex-row justify-evenly items-center gap-[50px]">
-            <div className="md:w-[40%] w-full px-4 py-10 flex justify-center items-center flex-col bg-secondary rounded-full gap-3 xl:gap-7">
+            <div className="md:w-[40%] w-full px-4 py-10 flex justify-center items-center flex-col bg-secondary rounded-full gap-3 xl:gap-7 box-wrapper">
               <h1 className="text-xl md:text-3xl xl:text-4xl text-primary flex justify-center items-center gap-3 max-w-[300px] text-center" style={{ fontFamily: poppins.style.fontFamily}}>
                 Das BeHappy&copy; Erfolgsrezept
               </h1>
               <p className="md:text-lg xl:text-2xl max-w-[90%] md:max-w-[60%] text-center text-pretty" style={{ fontFamily: poppins.style.fontFamily}}>In unseren Coachings lernst du, wie du in allen Lebenslagen, selbst während schwerer Schicksalsschläge, stets in deine Mitte findest und den Fokus nicht verlierst. Entdecke und verwirkliche dein volles Potenzial, aktiviere deine Selbstheilungskräfte und erfahre das Optimum an möglicher Heilung. Dein Weg zu einem glücklichen, erfüllten Leben beginnt hier.</p>
             </div>
-            <div className="md:w-[60%] w-full px-4 py-10 flex justify-center items-center flex-col bg-sand rounded-xl gap-3 xl:gap-7"></div>
+            <div className="md:w-[60%] w-full px-4 py-10 flex justify-center items-center flex-col bg-sand rounded-xl gap-3 xl:gap-7 z-10"></div>
           </div>
         </section>
         <section className="w-screen flex justify-center items-center transition-all">
@@ -146,39 +146,30 @@ export default function Home() {
           </div>
         </section>
         <section className="w-screen flex justify-center items-center transition-all">
-          <img src="" alt="Banner" className="w-screen bg-slate-400" />
+          <img src="/bildabschnit_1920_x_540.png" alt="Banner" className="w-screen bg-slate-400" />
         </section>
-        <section className="w-screen flex justify-center items-center transition-all translate-y-[-50px] md:translate-y-[-100px]">
-          <div className="w-full flex flex-col justify-center items-center">
-            <h1 className="w-[95%] md:w-[70%] lg:w-[50%] p-5 rounded-xl text-center text-7xl text-primary bg-sand" style={{ fontFamily: b_dancing_script.style.fontFamily}}>Read Me!</h1>
+        <section className="w-screen flex justify-center items-center transition-all translate-y-[-40px] md:translate-y-[-180px]">
+          <div className="w-[95%] md:w-[70%] lg:w-[50%] p-7 rounded-xl flex flex-col justify-center items-center bg-sand gap-3">
+            <h1 className="text-center text-8xl text-black" style={{ fontFamily: b_dancing_script.style.fontFamily}}>Read Me!</h1>
+            <h2 className="text-center text-4xl text-black font-bold" style={{ fontFamily: b_dancing_script.style.fontFamily }}>Tauche ab in meine Buchwelt</h2>
           </div>
         </section>
-        <section className="w-screen overflow-hidden flex flex-col md:flex-row justify-center items-center xl:px-5 gap-2 lg:gap-5" aria-label="bücher">
-          <div className="w-[95%] flex flex-col md:flex-row justify-between items-center gap-5">
-            <div className="w-full md:w-1/2 flex flex-col items-center justify-center gap-5 bg-secondary rounded-xl p-5 xl:p-10">
+        <section className="w-screen flex flex-col md:flex-row justify-center items-center xl:px-5 gap-2 lg:gap-5 transition-all translate-y-[-70px] md:translate-y-[-290px] rounded-xl overflow-hidden" aria-label="bücher">
+          <div className="w-[95%] flex flex-col md:flex-row justify-between items-center rounded-xl overflow-hidden">
+            <div className="w-full md:w-1/2 flex flex-col items-center justify-center gap-5 bg-sand p-5 xl:p-10">
               <img src="/book-cover-mockups_2.png" alt="Allein gegen Goliath Bild" className="w-[60%] rounded-xl"/>
               <div className="flex flex-col gap-2 justify-center items-center">
-                <h1 className="text-primary text-3xl" style={{ fontFamily: b_poppins.style.fontFamily}}>Allein gegen Goliath</h1>
-                <Link className="w-fit text-secondary bg-primary text-center rounded-xl py-1 px-2 hover:bg-primary-accent transition-colors duration-400 text-xl" target="_" href={"https://www.amazon.de/Allein-gegen-Goliath-rundumversichertes-Albtraum/dp/3037630132/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2OZ3772XM7FPA&dib=eyJ2IjoiMSJ9.X4nvjpL41MOOatO4Jui0ZcUGdZY6tiLvPOavWjgogMTW38duvGSFt-89SXqI9ytTXj7mDqyMisoq4gt1fvsSkcH_GAf1aiTk-oMnanq0rkk9N9iBlzkgDSlYrQbQXh11ACqj5pGSPFHd-OyCqDy5aS_fEWgDTI1LntyNXDT-3eaXkacm2Nw1elIZtTJLB9jhkQ0Qg5jmsZQ_kJxLCcVqz9cyVrXf8AGEMpyGevZaLIo.vVkx7YWNt4zhqdSGuyIzX-rtOW8Crcq-RuHgOb7mokw&dib_tag=se&keywords=caroline+bono&qid=1723737420&sprefix=caroline+bono%2Caps%2C101&sr=8-2"}>Jetzt kaufen!</Link>
+                <h1 className="text-black text-4xl" style={{ fontFamily: b_dancing_script.style.fontFamily}}>Allein gegen Goliath</h1>
+                <h2>Lorem ipsum dolor sit amet</h2>
               </div>
             </div>
-            <div className="w-full md:w-1/2 h-full flex flex-col items-center justify-center gap-5 bg-secondary rounded-xl p-5 xl:p-10">
+            <div className="w-full md:w-1/2 h-full flex flex-col items-center justify-center gap-5 bg-sand p-5 xl:p-10">
               <img src="/book-cover-mockups_1.png" alt="Goliath gegen Alle Bild" className="w-[60%] rounded-xl"/>
               <div className="flex flex-col gap-2 justify-center items-center">
-                <h1 className="text-primary text-3xl" style={{ fontFamily: b_poppins.style.fontFamily}}>Goliath gegen Alle</h1>
-                <Link style={{ fontFamily: poppins.style.fontFamily}} className="w-fit text-secondary bg-primary text-center rounded-xl py-1 px-2 hover:bg-primary-accent transition-colors duration-400 text-xl" target="_" href={"https://www.amazon.de/Goliath-gegen-alle-H%C3%B6lle-Himmel/dp/3991303507/ref=tmm_hrd_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.X4nvjpL41MOOatO4Jui0ZcUGdZY6tiLvPOavWjgogMTW38duvGSFt-89SXqI9ytTXj7mDqyMisoq4gt1fvsSkcH_GAf1aiTk-oMnanq0rkk9N9iBlzkgDSlYrQbQXh11ACqj5pGSPFHd-OyCqDy5aS_fEWgDTI1LntyNXDT-3eaXkacm2Nw1elIZtTJLB9jhkQ0Qg5jmsZQ_kJxLCcVqz9cyVrXf8AGEMpyGevZaLIo.vVkx7YWNt4zhqdSGuyIzX-rtOW8Crcq-RuHgOb7mokw&qid=1723737420&sr=8-1"}>Jetzt kaufen!</Link>
+                <h1 className="text-black text-4xl" style={{ fontFamily: b_dancing_script.style.fontFamily}}>Goliath gegen Alle</h1>
+                <h2>Lorem Ipsum dolor sit amet</h2>
               </div>
             </div>
-          </div>
-        </section>
-        <section className="w-screen">
-          <div className="rounded-md flex flex-col antialiased bg-white items-center justify-center relative overflow-hidden">
-            <InfiniteMovingCards
-              className="bg-white"
-              items={testimonials}
-              direction="right"
-              speed="slow"
-            />
           </div>
         </section>
       </div>
