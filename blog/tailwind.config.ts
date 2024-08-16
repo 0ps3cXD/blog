@@ -11,6 +11,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['var(--font-theseasons)']
+      },
       animation: {
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
@@ -28,9 +31,10 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        "primary": "#333963",
-        "primary-accent": "#646a93",
-        "secondary": "#fcf7de"
+        "primary": "#447d7e",
+        "primary-accent": "#000",
+        "secondary": "#dde8e9",
+        "sand": "#f9f3f1"
       }
     },
   },

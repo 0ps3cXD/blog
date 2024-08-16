@@ -35,3 +35,32 @@ body {
 .link:hover::before {
   transform: scaleX(1);
 }
+
+.carousel-wrapper {
+  overflow: hidden; 
+  width: 100%;
+  filter: grayscale(1);
+}
+
+.carousel-content {
+  display: flex;
+  gap: 10rem;
+  width: calc(200% + 5rem);
+  animation: move 20s linear infinite;
+}
+
+.carousel-content > div {
+  /*flex-shrink: 0;*/
+  min-width: calc(100vw - 100rem);
+}
+
+
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  } 
+  100% {
+    transform: translateX(-50%);
+  }
+}

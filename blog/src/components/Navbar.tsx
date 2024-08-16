@@ -22,7 +22,7 @@ export default function Navbar(props: Props) {
             <div className="hidden md:flex justify-center items-center mr-4 gap-4">
                 {props.links.map((link) => {
                     return (
-                        <Link href={link.href} key={link.href} className="transition-colors hover:text-primary-accent hover:border-b-[1px] border-primary">{link.text}</Link>
+                        <Link href={link.href} key={link.href} className="transition-colors hover:text-primary-accent duration-300">{link.text}</Link>
                     )
                 })}
             </div>
@@ -33,7 +33,7 @@ export default function Navbar(props: Props) {
                     </svg>
                 </button>
             </div>
-            <div className={cn("fixed top-0 w-screen h-screen bg-white flex-col justify-between items-center transition-all text-primary", show ? "right-0" : "right-[-220%] xl:right-[-120%]")}>
+            <div className={cn("fixed top-0 w-screen h-screen bg-white flex-col justify-between items-center transition-all text-primary duration-300", show ? "right-0" : "right-[-220%] xl:right-[-120%]")}>
                 <div className="w-[95%] h-auto flex flex-col justify-start items-start p-7">
                     <button onClick={() => {setShow(!show)}} className="absolute top-[14px]">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">

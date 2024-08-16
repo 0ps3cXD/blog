@@ -33,7 +33,7 @@ export default function Books() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-start gap-5 md:gap-12 xl:gap-36 px-12 pb-6 md:px-24 pt-[60px]">
             <section className="w-screen flex items-center justify-center gap-8 md:gap-12" aria-label="hero">
-                <img loading="lazy" src="/hero_2.png" alt="Hero" className="w-[96%] h-fit block rounded-[450px] transition-all hover:rounded-xl duration-500" />
+                <img loading="lazy" src="/hero_2.png" alt="Hero" className="w-[96%] h-full block rounded-[450px] transition-all hover:rounded-xl duration-500" />
             </section>
             <div className="w-screen translate-y-[-50px] md:translate-y-[-100px] xl:translate-y-[-300px]">
                 <section className="w-[95%] overflow-hidden flex flex-col md:flex-row justify-evenly items-center p-5 xl:px-5 gap-2 lg:gap-5" aria-label="bücher">
