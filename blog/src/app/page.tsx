@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Bebas_Neue, Dancing_Script, Poppins, Playfair_Display } from "next/font/google";
+import { InfiniteMovingCards } from "@/components/InfiniteCards";
 
 const bebas = Bebas_Neue({ weight: "400", subsets: ["latin"] });
 const dancing_script = Dancing_Script({ weight: "400", subsets: ["latin"]});
@@ -19,6 +20,7 @@ const listItems: Array<string> = [
 ];
 
 
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start gap-5 md:gap-12 xl:gap-36 px-12 pb-6 md:px-24">
@@ -36,6 +38,7 @@ export default function Home() {
             <p className="md:text-lg xl:text-2xl max-w-[90%] md:max-w-[60%] text-center text-pretty" style={{ fontFamily: poppins.style.fontFamily }}>Wie wäre es, wenn du ohne großen Aufwand phänomenale Veränderungen in deinem Leben erreichen könntest, die bisher unerreichbar schienen? Bei BeHappyCoaching bieten wir dir genau diese Möglichkeit. Stell dir vor, du könntest beruflich und privat erfolgreich und erfüllt sein, unabhängig von den äußeren Umständen. Mit den richtigen Tools und Methoden kannst du dein Leben mit Anmut und Freude dorthin lenken, wo du es haben möchtest.</p>
           </div>
         </section>
+        
         <section className="w-screen flex justify-center items-center transition-all">
           <div className="w-[95%] px-4 py-10 flex justify-center items-center flex-col bg-secondary rounded-xl gap-3 xl:gap-7">
             <h1 className="text-xl md:text-3xl xl:text-4xl text-primary flex justify-center items-center gap-3" style={{ fontFamily: poppins.style.fontFamily}}>
@@ -52,7 +55,7 @@ export default function Home() {
             <ul className="md:text-lg max-w-[90%] md:max-w-[60%] text-pretty m-0" style={{ fontFamily: poppins.style.fontFamily}}>
               {listItems.map((item: string) => {
                 return <li key={item} className="text-primary-accent flex items-center justify-center md:justify-start gap-2">
-                  <svg className="w-[16px] h-[16px] min-w-[16px] min-h-[16px] flex justify-center items-center" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m2.009 12.002c0-5.517 4.48-9.997 9.998-9.997s9.998 4.48 9.998 9.997c0 5.518-4.48 9.998-9.998 9.998s-9.998-4.48-9.998-9.998zm8.211-4.843c-.141-.108-.3-.157-.456-.157-.389 0-.755.306-.755.749v8.501c0 .445.367.75.755.75.157 0 .316-.05.457-.159 1.554-1.203 4.199-3.252 5.498-4.258.184-.142.29-.36.29-.592 0-.23-.107-.449-.291-.591z" fill-rule="nonzero"/></svg>
+                  <svg className="w-[16px] h-[16px] min-w-[16px] min-h-[16px] flex justify-center items-center" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd" stroke-linejoin="round" strokeMiterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m2.009 12.002c0-5.517 4.48-9.997 9.998-9.997s9.998 4.48 9.998 9.997c0 5.518-4.48 9.998-9.998 9.998s-9.998-4.48-9.998-9.998zm8.211-4.843c-.141-.108-.3-.157-.456-.157-.389 0-.755.306-.755.749v8.501c0 .445.367.75.755.75.157 0 .316-.05.457-.159 1.554-1.203 4.199-3.252 5.498-4.258.184-.142.29-.36.29-.592 0-.23-.107-.449-.291-.591z" fill-rule="nonzero"/></svg>
                   {item}
                   </li>
               })}

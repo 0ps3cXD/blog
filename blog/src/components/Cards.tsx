@@ -1,10 +1,10 @@
 "use client";
 import { CardStack } from "./Card";
 import cn from "@/lib/cn";
-export function CardStackDemo() {
+export default function CardStackDemo() {
   return (
     <div className="h-[40rem] flex items-center justify-center w-full">
-      <CardStack items={CARDS} />
+      <CardStack items={Cards} />
     </div>
   );
 }

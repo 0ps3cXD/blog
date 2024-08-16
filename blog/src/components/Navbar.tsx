@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { Poppins } from "next/font/google";
 
-const poppins = Poppins({ weight: "700", subsets: ["latin"] });
+const poppins = Poppins({ weight: "600", subsets: ["latin"] });
 
 interface Props {
     links: Array<{ href: string, text: string }>
