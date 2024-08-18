@@ -69,5 +69,5 @@ body {
   /*background: #dde8e9;*/
   /*box-shadow:  48px 48px 96px #777d7e,
                -48px -48px 96px #ffffff;*/
-  filter: drop-shadow(48px 48px 96px #777d7e);
+  filter: drop-shadow(48px 48px 96px rgba(119, 125, 126, 0.4));
 }
