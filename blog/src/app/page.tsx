@@ -58,10 +58,10 @@ export default function Home() {
             <h1 className="text-xl text-center text-pretty md:text-4xl text-black mb-5" style={{ fontFamily: dancing_script.style.fontFamily }}>Bekannt aus</h1>
             <InfiniteCarousel>
               <div className="w-full flex justify-center items-center gap-[40px]">
-                <img loading="lazy" className="w-fit md:w-full max-w-[300px] max-h-[100px]" src="/logos/coop_zeitung.png" alt="Coop Zeitung" />
-                <img loading="lazy" className="w-fit md:w-full max-w-[300px] max-h-[100px]" src="/logos/handelszeitung.png" alt="Handelszeitung" />
-                <img loading="lazy" className="w-fit md:w-full max-w-[300px] max-h-[100px]" src="/logos/persoenlich.png" alt="Persönlich Zeitung" />
-                <img loading="lazy" className="w-fit md:w-full max-w-[300px] max-h-[100px]" src="/logos/tagesanzeiger.png" alt="Tagesanzeiger Zeitung" />
+                <img loading="lazy" className="w-fit md:w-full max-w-[300px] max-h-[100px] px-5" src="/logos/coop_zeitung.png" alt="Coop Zeitung" />
+                <img loading="lazy" className="w-fit md:w-full max-w-[300px] max-h-[100px] px-5" src="/logos/handelszeitung.png" alt="Handelszeitung" />
+                <img loading="lazy" className="w-fit md:w-full max-w-[300px] max-h-[100px] px-5" src="/logos/persoenlich.png" alt="Persönlich Zeitung" />
+                <img loading="lazy" className="w-fit md:w-full max-w-[300px] max-h-[100px] px-5" src="/logos/tagesanzeiger.png" alt="Tagesanzeiger Zeitung" />
               </div>
             </InfiniteCarousel>
           </div>

@@ -11,7 +11,16 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "BeHappyCoaching",
-  description: "BeHappyCoaching | Beruflich und privat erfolgreich",
+  description: "Trauma überwinden, glücklich und erfolgreich leben - Caroline Bono",
+  openGraph: {
+    title: "BeHappyCoaching",
+    url: "https://behappycoaching.ch/",
+    description: "Trauma überwinden, glücklich und erfolgreich leben - Caroline Bono",
+  },
+  twitter: {
+    title: "BeHappyCoaching",
+    description: "Trauma überwinden, glücklich und erfolgreich leben - Caroline Bono",
+  }
 };
 
 
