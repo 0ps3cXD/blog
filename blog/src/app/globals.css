@@ -44,8 +44,9 @@ body {
 
 .carousel-content {
   display: flex;
-  gap: 10rem;
-  width: calc(200% + 5rem);
+  justify-content: center;
+  align-items: center;
+  width: calc(200%);
   animation: move 20s linear infinite;
 }
 

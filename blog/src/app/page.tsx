@@ -57,13 +57,11 @@ export default function Home() {
           <div className="w-[95%] hidden md:flex md:text-3xl px-4 py-1 justify-center items-center flex-col rounded-xl gap-3 xl:gap-7">
             <h1 className="text-xl text-center text-pretty md:text-4xl text-black mb-5" style={{ fontFamily: dancing_script.style.fontFamily }}>Bekannt aus</h1>
             <InfiniteCarousel>
-              <div className="w-full flex justify-center items-center gap-[100px]">
-                <img loading="lazy" className="w-[200px] md:w-full" src="/logos/coop_zeitung.png" alt="Coop Zeitung" />
-                <img loading="lazy" className="w-fit md:w-full" src="/logos/handelszeitung.png" alt="Handelszeitung" />
-              </div>
-              <div className="w-full flex justify-center items-center gap-[100px]">
-                <img loading="lazy" className="w-fit md:w-full" src="/logos/persoenlich.png" alt="Persönlich Zeitung" />
-                <img loading="lazy" className="w-fit md:w-full" src="/logos/tagesanzeiger.png" alt="Tagesanzeiger Zeitung" />
+              <div className="w-full flex justify-center items-center gap-[40px]">
+                <img loading="lazy" className="w-fit md:w-full max-w-[300px] max-h-[100px]" src="/logos/coop_zeitung.png" alt="Coop Zeitung" />
+                <img loading="lazy" className="w-fit md:w-full max-w-[300px] max-h-[100px]" src="/logos/handelszeitung.png" alt="Handelszeitung" />
+                <img loading="lazy" className="w-fit md:w-full max-w-[300px] max-h-[100px]" src="/logos/persoenlich.png" alt="Persönlich Zeitung" />
+                <img loading="lazy" className="w-fit md:w-full max-w-[300px] max-h-[100px]" src="/logos/tagesanzeiger.png" alt="Tagesanzeiger Zeitung" />
               </div>
             </InfiniteCarousel>
           </div>
