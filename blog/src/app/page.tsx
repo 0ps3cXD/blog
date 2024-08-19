@@ -50,7 +50,7 @@ export default function Home() {
               <img src="/logo.png" className="max-w-[20%]" alt="BeHappyCoaching Logo"/>
               <div className="w-[95%] md:w-[90%] h-[60%] px-4 py-10 flex justify-center items-center flex-col bg-sand rounded-xl gap-5 xl:gap-7">
                 <h1 style={{ fontFamily: "theseasons" }} className="text-black text-5xl font-sans text-center">Hey, ich bin<br/> <span className="text-primary" style={{ fontFamily: dancing_script.style.fontFamily}}>Caroline Bono-Hörler!</span></h1>
-                <p className="text-xl max-w-[80%] text-center text-pretty" style={{ fontFamily: poppins.style.fontFamily }}>So schön, dass du da bist! Als lizensierter Coach, Juristin, Bestseller-Autorin und Gründerin unterstütze ich so viele Menschen wie möglich dabei, den Zugang zu ihrer eigenen spirituellen Welt zu öffnen. Entfalte jetzt dein ganzes Potential!</p>
+                <p className="text-xl max-w-[80%] text-center text-pretty" style={{ fontFamily: poppins.style.fontFamily }}>Als Gründerin von BeHappy Coaching ist es meine Mission, Menschen auf ihrem Weg zu einem erfüllteren und glücklicheren Leben zu begleiten. Mit meiner Erfahrung als Coachin unterstütze ich dich dabei, deine persönlichen Ziele zu erreichen und Hindernisse zu überwinden. Gemeinsam finden wir den Weg zu deinem besten Selbst. Bist du bereit, dein Leben positiv zu verändern?</p>
               </div>
     </div>
           </div>
@@ -135,9 +135,6 @@ export default function Home() {
                         <p className="text-pretty">Dr. iur. Caroline Bono-Hörler war eine stolze Mutter und erfolgreiche Juristin. Sie war kerngesund, sehr sportlich und wusste, was sie wollte. Doch dann machte ein einziger Augenblick alles zunichte. Ihr Auto stand vor einer Ampel, als es von hinten gerammt wurde...</p>
                         <Link href={"/"} className="bg-primary text-sand drop-shadow-xl text-xl transition-all duration-300 hover:bg-sand hover:text-primary px-3 py-2 rounded-2xl">Jetzt bestellen</Link>
                     </div>
-                </div>
-                <div className="hidden md:flex justify-center items-center size-[180px] absolute right-4">
-                    <img src="/sticker.png" loading="lazy" alt="Sticker" className="size-[180px] rotate-45 saturate-50"/>
                 </div>
                 <div className="w-screen flex flex-col md:flex-row justify-center items-center">
                     <div className="bg-primary w-fit max-w-[95%] flex flex-col justify-center items-center p-12 rounded-xl gap-5">
