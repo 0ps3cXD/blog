@@ -1,14 +1,14 @@
+"use client"
+import CalendlyWidget from "@/components/CalendlyWidget"
+import { Dancing_Script } from "next/font/google";
+const b_dancing_script = Dancing_Script({ weight: "700", subsets: ["latin"]});
+
+
 export default function Contact() {
     return (
-        <main className="flex min-h-screen flex-col items-center justify-start gap-5 md:gap-12 xl:gap-36 px-12 pb-6 md:px-24">
-            <section aria-label="map" className="w-screen">
-                <iframe width="600" height="450" className="w-full" loading="lazy"
-                    data-src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJtRYp32akmkcRzRD23IiNajY&key=...">
-                </iframe> 
-            </section>
-            <section className="w-screen">
-                <iframe className="border-0" src="https://calendar.google.com/calendar/embed?src=reisetagtimur%40gmail.com&ctz=Europe%2FBerlin" width="800" height="600" scrolling="no"></iframe>
-            </section>
+        <main className="flex min-h-screen flex-col items-center justify-center gap-5 pt-[50px] pb-6">
+            <h1 className="text-3xl md:text-5xl text-center text-pretty" style={{ fontFamily: b_dancing_script.style.fontFamily }}>Jetzt kostenloses Kennenlerngespräch vereinbaren!</h1>
+            <CalendlyWidget/>
         </main>
     )
 }

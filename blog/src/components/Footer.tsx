@@ -17,8 +17,6 @@ export default function Footer() {
                 <div className="flex flex-col gap-2 justify-center items-start w-[200px] md:w-[300px]">
                     <h4 className="font-semibold text-lg">Rechtliches</h4>
                     <Link href={"/impressum"} className="text-white">Impressum</Link>
-                    <Link href={"/datenschutz"} className="text-white">Datenschutz</Link>
-                    <Link href={"/cookies"} className="text-white">Cookie-Einstellungen</Link>
                 </div>
                 <div className="flex flex-col gap-2 justify-center items-start w-[200px] md:w-[300px]">
                     <h4 className="font-semibold text-lg">Disclaimer</h4>

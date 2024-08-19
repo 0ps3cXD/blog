@@ -30,6 +30,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/icons/favicon.ico" type="image/x-icon" sizes="any" />
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
       </head>
       <body className={cn("h-fit flex flex-col", inter.className)}>
         <Navbar links={Links}/>
