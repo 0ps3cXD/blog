@@ -28,9 +28,6 @@ export default function Books() {
                         <Link href={"/"} className="bg-primary text-sand drop-shadow-xl text-xl transition-all duration-300 hover:bg-sand hover:text-primary px-3 py-2 rounded-2xl">Jetzt bestellen</Link>
                     </div>
                 </div>
-                <div className="hidden md:flex justify-center items-center size-[180px] absolute right-4">
-                    <img src="/sticker.png" loading="lazy" alt="Sticker" className="size-[180px] rotate-45 saturate-50"/>
-                </div>
                 <div className="w-screen flex flex-col md:flex-row justify-center items-center">
                     <div className="bg-primary w-fit max-w-[95%] flex flex-col justify-center items-center p-12 rounded-xl gap-5">
                         <h1 className="text-5xl text-white text-center" style={{ fontFamily: b_dancing_script.style.fontFamily }}>Jetzt hier bestellen</h1>
