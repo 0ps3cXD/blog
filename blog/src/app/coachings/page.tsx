@@ -19,7 +19,7 @@ export default function Coachings() {
                 </div>
                 <div className="w-[95%] flex flex-col md:flex-row justify-evenly items-center gap-[50px]">
                     <div className="md:w-[40%] w-full overflow-hidden px-4 py-10 flex justify-center items-center flex-col bg-transparent rounded-2xl gap-3 xl:gap-7">
-                        <img className="max-w-[70%] rounded-full transition-all" loading="lazy" src="/caroline_bono_hoerler_portrait.png" alt="Caroline Bono Hoerler Portrait"/>
+                        <img className="max-w-[70%] rounded-full transition-all" loading="lazy" src="/caroline_bono_hoerler_portrait.jpg" alt="Caroline Bono Hoerler Portrait"/>
                         <h1 className="text-xl md:text-3xl xl:text-4xl text-primary flex justify-center items-center gap-3 max-w-[300px] text-center" style={{ fontFamily: poppins.style.fontFamily}}>
                             Das BeHappy&copy; Erfolgsrezept
                         </h1>
@@ -69,7 +69,7 @@ export default function Coachings() {
             <section className="w-screen h-fit flex justify-center items-center flex-col gap-5">
               <h1 className="text-5xl" style={{ fontFamily: b_dancing_script.style.fontFamily }}>Schritte unserer Zusammenarbeit im Coaching</h1>
               <img loading="lazy" src="/schritte_der_zusammenarbeit_behappy_coaching.png" alt="Schritte der Zusammenarbeit" className="w-screen"/>
-              <Link className="text-xl bg-primary text-sand hover:bg-secondary hover:text-primary transition-all duration-300 px-3 py-2 rounded-xl" style={{ fontFamily: poppins.style.fontFamily}} href={"/contact"}>Hier klicken um kostenlosen Kennenlerntermin zu buchen</Link>
+              <Link className="text-xl bg-primary text-sand hover:bg-secondary hover:text-primary transition-all duration-300 px-3 py-2 rounded-xl" style={{ fontFamily: poppins.style.fontFamily}} href={"/contact"}>Hier klicken um Kennenlerntermin zu buchen</Link>
             </section>
             <section className="w-screen h-fit justify-center items-center">
               <img loading="lazy" src="/resultate_behappy_coaching.png" alt="Resultate" className="w-screen"/>
