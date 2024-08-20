@@ -9,7 +9,7 @@ const poppins = Poppins({ weight: "400", subsets: ["latin"] });
 export default function Coachings() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-center gap-5 md:gap-12 xl:gap-36 pt-[50px] pb-6">
-            <img loading="lazy" src="/be_happy_coaching_hero5.png" alt="BeHappyCoaching Hero 5" className="w-screen"/>
+            <img loading="lazy" src="/hero5.png" alt="BeHappyCoaching Hero 5" className="w-screen"/>
             <section className="w-screen flex flex-col gap-[50px] justify-center items-center transition-all">
                 <div className="w-full flex flex-col justify-center items-center gap-5">
                     <div className="w-[90%] flex justify-end">
@@ -27,10 +27,12 @@ export default function Coachings() {
                     <div className="md:w-[60%] w-full px-4 py-10 flex justify-center items-center flex-col bg-sand rounded-xl gap-3 xl:gap-7 z-10">
                         <h1 className="text-4xl text-primary text-center text-pretty" style={{ fontFamily: b_dancing_script.style.fontFamily }}>Warum ich dir helfen kann - mein Background:</h1>
                         <ul className="list-disc px-2" style={{ fontFamily: poppins.style.fontFamily }}>
-                            <li>Dr. iur. Universtität Zürich</li>
-                            <li>Wirtschafts- und Familienmediatorin</li>
+                            <li>Master of Law Universität Zürich</li>
+                            <li>PhD of Law Universität Zürich</li>
+                            <li>Dipl. Wirtschafts- und Familienmediatorin</li>
                             <li>Rechtsanwältin</li>
                             <li>Omega Health Coach (Dr. Roy Martina)</li>
+                            <li>NLP, Hypnose, Emotional Balance Technique</li>
                             <li>Cristallin Healing</li>
                             <li>Master Angel Life Coach®</li>
                             <li>Monroe Institute (Dolphin Energy Club)</li>
@@ -46,7 +48,7 @@ export default function Coachings() {
             <section className="w-screen flex justify-center items-center transition-all">
                 <div className="w-full px-4 py-10 flex justify-center items-center flex-col bg-secondary gap-3 xl:gap-7">
                     <h1 className="text-xl text-center text-pretty md:text-5xl xl:text-7xl text-primary font-semibold" style={{ fontFamily: dancing_script.style.fontFamily}}>Ich helfe bei:</h1>
-                    <p className="md:text-lg max-w-[90%] md:max-w-[60%] text-center text-pretty" style={{ fontFamily: poppins.style.fontFamily }}>Du kommst mit &nbsp;<span className="text-3xl" style={{ fontFamily: dancing_script.style.fontFamily }}>einem Problem</span>, respektive mit einem nicht erfülltem Wunsch ins Coaching, sei dies im Bereich &nbsp;<span className="text-3xl" style={{ fontFamily: dancing_script.style.fontFamily }}>Arbeitsplatz</span>,&nbsp; <span className="text-3xl" style={{ fontFamily: dancing_script.style.fontFamily }}>Liebesbeziehung</span>, &nbsp;<span className="text-3xl" style={{ fontFamily: dancing_script.style.fontFamily }}>Trauma</span>, &nbsp;<span className="text-3xl" style={{ fontFamily: dancing_script.style.fontFamily }}>Unfall</span>.</p>
+                    <p className="md:text-lg max-w-[90%] md:max-w-[60%] text-center text-pretty" style={{ fontFamily: poppins.style.fontFamily }}>Du kommst mit &nbsp;<span className="text-3xl" style={{ fontFamily: dancing_script.style.fontFamily }}>einem Problem</span>, respektive mit einem nicht erfülltem <span className="text-3xl" style={{ fontFamily: dancing_script.style.fontFamily }}>Wunsch</span> ins Coaching, sei dies im Bereich &nbsp;<span className="text-3xl" style={{ fontFamily: dancing_script.style.fontFamily }}>Arbeitsplatz</span>,&nbsp; <span className="text-3xl" style={{ fontFamily: dancing_script.style.fontFamily }}>Liebesbeziehung</span>, &nbsp;<span className="text-3xl" style={{ fontFamily: dancing_script.style.fontFamily }}>Trauma</span>, &nbsp;<span className="text-3xl" style={{ fontFamily: dancing_script.style.fontFamily }}>Unfall</span>.</p>
                     <p className="md:text-lg max-w-[90%] md:max-w-[60%] text-center text-pretty" style={{ fontFamily: poppins.style.fontFamily }}>Wir suchen im Gespräch nach dem roten Faden, der sich durch dein Leben zieht, entdecken die Gesamtzusammenhänge des Problems und Verarbeiten die Ursachen, welche oft im Unbewussten Bereich liegen mit der für dieses Problem geeigneten Methode.</p>
                 </div>
             </section>
@@ -55,7 +57,7 @@ export default function Coachings() {
                     <div className="w-full px-4 py-10 flex justify-center items-center flex-col bg-secondary rounded-xl gap-3 xl:gap-7">
                         <h2 className="text-xl md:text-3xl text-primary-accent" style={{ fontFamily: dancing_script.style.fontFamily}}>Dein Investment in dich selbst</h2>
                         <h1 className="text-xl text-center text-pretty md:text-4xl text-primary" style={{ fontFamily: poppins.style.fontFamily}}>Unsere Coaching-Angebote</h1>
-                        <p className="md:text-lg max-w-[90%] md:max-w-[60%] text-center text-pretty" style={{ fontFamily: poppins.style.fontFamily}}>Jede unserer Coaching Sessions fängt mit 45 Minuten an, kann aber je nach Ziel erweitert werden. Diese Investition in dich selbst kann dir helfen, die Veränderungen in deinem Leben herbeizuführen, die du dir schon immer gewünscht hast. Egal, ob du berufliche oder private Ziele erreichen, emotionale oder körperliche Blockaden lösen oder einfach mehr Zufriedenheit im Alltag finden möchtest – wir sind hier, um dich auf deinem Weg zu unterstützen.</p>
+                        <p className="md:text-lg max-w-[90%] md:max-w-[60%] text-center text-pretty" style={{ fontFamily: poppins.style.fontFamily}}>Jede unserer Coaching Sessions fängt mit einer Stunde an, kann aber je nach Ziel erweitert werden. Diese Investition in dich hilft dir, die Veränderungen in deinem Leben herbeizuführen, die du dir schon immer gewünscht hast. Egal, ob du berufliche oder private Ziele erreichen, emotionale oder körperliche Blockaden lösen, oder einfach mehr Zufriedenheit im Alltag finden möchtest - Ich bin hier, um dich auf deinem Weg zu unterstützen. Buche jetzt deine Sitzung und starte noch heute auf deinem Weg zu einem erfüllten Leben.</p>
                         <p className="md:text-lg max-w-[90%] md:max-w-[60%] text-center text-pretty" style={{ fontFamily: poppins.style.fontFamily}}>Buche jetzt deine Sitzung und starte noch heute auf deinem Weg zu einem erfüllten Leben.</p>
                     </div>
                     <div className="w-full flex flex-col gap-5">

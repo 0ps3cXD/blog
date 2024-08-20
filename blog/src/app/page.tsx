@@ -52,7 +52,7 @@ export default function Home() {
                 <h1 style={{ fontFamily: "theseasons" }} className="text-black text-5xl font-sans text-center">Hey, ich bin<br/> <span className="text-primary" style={{ fontFamily: dancing_script.style.fontFamily}}>Caroline Bono-Hörler!</span></h1>
                 <p className="text-xl max-w-[80%] text-center text-pretty" style={{ fontFamily: poppins.style.fontFamily }}>Als Gründerin von BeHappyCoaching ist es meine Mission, Menschen auf ihrem Weg zu einem erfüllteren und glücklicheren Leben zu begleiten. Mit meiner Erfahrung als Coachin unterstütze ich dich dabei, deine persönlichen Ziele zu erreichen und Hindernisse zu überwinden. Gemeinsam finden wir den Weg zu deinem besten Selbst. Bist du bereit, dein Leben positiv zu verändern?</p>
               </div>
-    </div>
+          </div>
           </div>
           <div className="w-[95%] hidden md:flex md:text-3xl px-4 py-1 justify-center items-center flex-col rounded-xl gap-3 xl:gap-7">
             <h1 className="text-xl text-center text-pretty md:text-4xl text-black mb-5" style={{ fontFamily: dancing_script.style.fontFamily }}>Bekannt aus</h1>
