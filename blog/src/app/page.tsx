@@ -44,7 +44,7 @@ export default function Home() {
         <section className="w-screem flex flex-col md:flex-col justify-evenly items-center transition-all translate-y-[-50px] md:translate-y-[-120px] gap-[10px] " aria-label="mockup">
           <div className="w-[95%] flex flex-col md:flex-row justify-center items-center gap-[50px]">
             <div className="max-h-[700px] lg:max-h-[50rem]">
-              <img src="/caroline_bono_hoerler_coaching.png" alt="MockUp Phone" className="max-h-[700px] lg:max-h-[50rem] box-wrapper" />
+              <img src="/handy.png" alt="MockUp Phone" className="max-h-[700px] lg:max-h-[50rem] box-wrapper" />
             </div>
             <div className="w-[95%] md:w-[50%] flex flex-col justify-center items-center gap-[50px] xl:gap-[25px] z-10">
               <img src="/logo.png" className="max-w-[20%]" alt="BeHappyCoaching Logo"/>
