@@ -25,7 +25,7 @@ export default function Books() {
                         <h1 style={{ fontFamily: b_dancing_script.style.fontFamily }} className="text-4xl text-black">Allein gegen Goliath</h1>
                         <h2 style={{ fontFamily: poppins.style.fontFamily }} className="text-xl text-back text-pretty">Wie mein rundumversichertes Leben zum Albtraum wurde</h2>
                         <p className="text-pretty">Dr. iur. Caroline Bono-Hörler war eine stolze Mutter und erfolgreiche Juristin. Sie war kerngesund, sehr sportlich und wusste, was sie wollte. Doch dann machte ein einziger Augenblick alles zunichte. Ihr Auto stand vor einer Ampel, als es von hinten gerammt wurde...</p>
-                        <Link href={"/"} className="bg-primary text-sand drop-shadow-xl text-xl transition-all duration-300 hover:bg-sand hover:text-primary px-3 py-2 rounded-2xl">Jetzt bestellen</Link>
+                        <Link target="_" href={"https://www.amazon.de/Allein-gegen-Goliath-rundumversichertes-Albtraum/dp/3037630132/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr="} className="bg-primary text-sand drop-shadow-xl text-xl transition-all duration-300 hover:bg-sand hover:text-primary px-3 py-2 rounded-2xl">Jetzt bestellen</Link>
                     </div>
                 </div>
                 <div className="w-screen flex flex-col md:flex-row justify-center items-center">
