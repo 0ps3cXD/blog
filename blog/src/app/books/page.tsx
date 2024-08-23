@@ -19,7 +19,7 @@ export default function Books() {
                 </section>
                 <section className="flex flex-col items-center justify-start gap-[50px] md:gap-[0px]" aria-label="bücher">
                     <div className="w-screen flex flex-col lg:flex-row justify-evenly items-center z-10">
-                        <img loading="lazy" src="/book-cover-mockup_allein_gegen_goliath.png" alt="Allein gegen Goliath Mock Up" className="h-full max-h-[700px] drop-shadow-2xl"/>
+                        <img loading="lazy" src="/book-cover-mockup_allein_gegen_goliath.png" alt="Allein gegen Goliath Mock Up" className="h-full max-h-[400px] md:max-h-[700px] drop-shadow-2xl"/>
                         <div className="w-fit max-w-[600px] h-full flex flex-col justify-center items-start lg:py-[0px] gap-5 px-7">
                             <h3 style={{ fontFamily: b_dancing_script.style.fontFamily }} className="text-5xl text-primary">Read me!</h3>
                             <h1 style={{ fontFamily: b_dancing_script.style.fontFamily }} className="text-4xl text-black">Allein gegen Goliath</h1>
@@ -36,7 +36,7 @@ export default function Books() {
                         <p className="text-pretty">Das Neue Buch von Frau Bono entführt dich in eine packende Welt, in der Macht und Intrigen aufeinandertreffen. Tauche ein in die Geschichte eines Helden, der sich gegen schier übermächtige Gegner stellt und seine tiefsten Ängste überwinden muss. Ein fesselnder Roman voller Spannung, unerwarteter Wendungen und psychologischer Tiefe.</p>
                         <Link target="_" href={"https://www.novumverlag.com/onlineshop/ratgeber-sachbuch/sonstiges-allerlei/goliath-gegen-alle.html"} className="bg-primary text-sand drop-shadow-xl text-xl transition-all duration-300 hover:bg-sand hover:text-primary px-3 py-2 rounded-2xl">Jetzt bestellen</Link>
                     </div>
-                    <img loading="lazy" src="/mockup2.png" alt="Goliath gegen Alle Mock Up" className="h-full max-h-[700px] drop-shadow-2xl"/>
+                    <img loading="lazy" src="/mockup2.png" alt="Goliath gegen Alle Mock Up" className="h-full max-h-[400px] md:max-h-[700px] drop-shadow-2xl"/>
                     </div>
                     <div className="w-screen flex flex-col md:flex-row justify-center items-center mb-5">
                         <div className="bg-primary w-fit max-w-[95%] flex flex-col justify-center items-center p-12 rounded-xl gap-5">
