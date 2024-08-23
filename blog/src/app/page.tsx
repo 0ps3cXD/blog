@@ -95,7 +95,7 @@ export default function Home() {
                   <li>Monroe Institute (Dolphin Energy Club)</li>
                   <li>Joy-Mapping (Melissa Joy Jonsson)</li>
                   <li>Matrix Energetics® (Dr. Richard Bartlett)</li>
-                  <li>Transaktionsanalyse / Psychoanalyse</li>
+                  <li>Transaktionsanalyse</li>
                   <li>Holographic Imaging</li>
                   <li>Pranic Healing</li>
                 </ul>
@@ -105,7 +105,7 @@ export default function Home() {
         <section className="w-screen flex justify-center items-center transition-all">
           <div className="w-full px-4 py-10 flex justify-center items-center flex-col bg-secondary gap-3 xl:gap-7">
             <h1 className="text-xl text-center text-pretty md:text-5xl xl:text-7xl text-primary font-semibold" style={{ fontFamily: dancing_script.style.fontFamily}}>Ich helfe bei:</h1>
-            <p className="md:text-lg max-w-[90%] md:max-w-[60%] text-center text-pretty" style={{ fontFamily: poppins.style.fontFamily }}>Du kommst mit &nbsp;<span className="text-3xl" style={{ fontFamily: dancing_script.style.fontFamily }}>einem Problem</span>, respektive mit einem nicht erfülltem <span className="text-3xl" style={{ fontFamily: dancing_script.style.fontFamily }}>Wunsch</span> ins Coaching, sei dies im Bereich &nbsp;<span className="text-3xl" style={{ fontFamily: dancing_script.style.fontFamily }}>Arbeitsplatz</span>,&nbsp; <span className="text-3xl" style={{ fontFamily: dancing_script.style.fontFamily }}>Liebesbeziehung</span>, &nbsp;<span className="text-3xl" style={{ fontFamily: dancing_script.style.fontFamily }}>Trauma</span>, &nbsp;<span className="text-3xl" style={{ fontFamily: dancing_script.style.fontFamily }}>Unfall</span>.</p>
+            <p className="md:text-lg max-w-[90%] md:max-w-[60%] text-center text-pretty" style={{ fontFamily: poppins.style.fontFamily }}>Du kommst mit &nbsp;<span className="text-3xl" style={{ fontFamily: dancing_script.style.fontFamily }}>einem Problem</span>, respektive mit einem nicht erfülltem <span className="text-3xl" style={{ fontFamily: dancing_script.style.fontFamily }}>Wunsch</span> ins Coaching, sei dies im Bereich &nbsp;<span className="text-3xl" style={{ fontFamily: dancing_script.style.fontFamily }}>Arbeitsplatz</span>,&nbsp; <span className="text-3xl" style={{ fontFamily: dancing_script.style.fontFamily }}>Liebesbeziehung</span>, &nbsp;<span className="text-3xl" style={{ fontFamily: dancing_script.style.fontFamily }}>Trauma</span>, &nbsp;<span className="text-3xl" style={{ fontFamily: dancing_script.style.fontFamily }}>Gesundheit</span>.</p>
             <p className="md:text-lg max-w-[90%] md:max-w-[60%] text-center text-pretty" style={{ fontFamily: poppins.style.fontFamily }}>Wir suchen im Gespräch nach dem roten Faden, der sich durch dein Leben zieht, entdecken die Gesamtzusammenhänge des Problems und Verarbeiten die Ursachen, welche oft im unbewussten Bereich liegen mit der für dieses Problem geeigneten Methode.</p>
           </div>
         </section>
@@ -114,8 +114,8 @@ export default function Home() {
             <div className="w-full px-4 py-10 flex justify-center items-center flex-col bg-secondary rounded-xl gap-3 xl:gap-7">
                 <h2 className="text-xl md:text-3xl text-black" style={{ fontFamily: dancing_script.style.fontFamily}}>Dein Investment in dich selbst</h2>
                 <h1 className="text-xl text-center text-pretty md:text-4xl text-primary" style={{ fontFamily: poppins.style.fontFamily}}>Unsere Coaching-Angebote</h1>
-                <p className="md:text-lg max-w-[90%] md:max-w-[60%] text-center text-pretty" style={{ fontFamily: poppins.style.fontFamily}}>Jede unserer Coaching Sessions fängt mit einer Stunde an, kann aber je nach Ziel erweitert werden. Diese Investition in dich hilft dir, die Veränderungen in deinem Leben herbeizuführen, die du dir schon immer gewünscht hast. Egal, ob du berufliche oder private Ziele erreichen, emotionale oder körperliche Blockaden lösen, oder einfach mehr Zufriedenheit im Alltag finden möchtest - Ich bin hier, um dich auf deinem Weg zu unterstützen. Buche jetzt deine Sitzung und starte noch heute auf deinem Weg zu einem erfüllten Leben.</p>
-                <p className="md:text-lg max-w-[90%] md:max-w-[60%] text-center text-pretty" style={{ fontFamily: poppins.style.fontFamily}}>Buche jetzt deine Sitzung und starte noch heute auf deinem Weg zu einem erfüllten Leben.</p>
+                <p className="md:text-lg max-w-[90%] md:max-w-[60%] text-center text-pretty" style={{ fontFamily: poppins.style.fontFamily}}>Jede unserer Coaching Sessions fängt mit einem 15-minütigen kostenlosen Kennenlerngespräch via Telefonat an, kann aber je nach Ziel erweitert werden. Diese Investition in dich hilft dir, die Veränderungen in deinem Leben herbeizuführen, die du dir schon immer gewünscht hast. Egal, ob du berufliche oder private Ziele erreichen, emotionale oder körperliche Blockaden lösen, oder einfach mehr Zufriedenheit im Alltag finden möchtest - Ich bin hier, um dich auf deinem Weg zu unterstützen. Buche jetzt deine Sitzung und starte noch heute auf deinem Weg zu einem erfüllten Leben.</p>
+                <p className="md:text-lg max-w-[90%] md:max-w-[60%] text-center text-pretty" style={{ fontFamily: poppins.style.fontFamily}}>Das Investment in eine einstündige Sitzung liegt bei 220 CHF, aber buche dir vorher gerne unser kostenloses 15-minütiges Kennenlerngespräch und starte noch heute auf deinem Weg zu einem erfüllten Leben.</p>
             </div>
             <div className="w-full flex flex-col gap-5">
               <img loading="lazy" src="/side-view-young-girl-talking-therapist.png" className="w-full rounded-full" alt="Side View young girl talking theraphist" />
@@ -129,7 +129,7 @@ export default function Home() {
             </section>
             <section className="flex flex-col items-center justify-start gap-[50px] md:gap-[0px]" aria-label="bücher">
                 <div className="w-screen flex flex-col lg:flex-row justify-evenly items-center z-10">
-                    <img loading="lazy" src="/book-cover-mockup_allein_gegen_goliath.png" alt="Allein gegen Goliath Mock Up" className="h-full max-h-[700px] drop-shadow-2xl"/>
+                    <img loading="lazy" src="/book-cover-mockup_allein_gegen_goliath.png" alt="Allein gegen Goliath Mock Up" className="h-full max-h-[400px] md:max-h-[700px] drop-shadow-2xl"/>
                     <div className="w-fit max-w-[600px] h-full flex flex-col justify-center items-start lg:py-[0px] gap-5 px-7">
                         <h3 style={{ fontFamily: b_dancing_script.style.fontFamily }} className="text-5xl text-primary">Read me!</h3>
                         <h1 style={{ fontFamily: b_dancing_script.style.fontFamily }} className="text-4xl text-black">Allein gegen Goliath</h1>
@@ -146,7 +146,7 @@ export default function Home() {
                     <p className="text-pretty">Das Neue Buch von Frau Bono entführt dich in eine packende Welt, in der Macht und Intrigen aufeinandertreffen. Tauche ein in die Geschichte eines Helden, der sich gegen schier übermächtige Gegner stellt und seine tiefsten Ängste überwinden muss. Ein fesselnder Roman voller Spannung, unerwarteter Wendungen und psychologischer Tiefe.</p>
                     <Link target="_" href={"https://www.novumverlag.com/onlineshop/ratgeber-sachbuch/sonstiges-allerlei/goliath-gegen-alle.html"} className="bg-primary text-sand drop-shadow-xl text-xl transition-all duration-300 hover:bg-sand hover:text-primary px-3 py-2 rounded-2xl">Jetzt bestellen</Link>
                   </div>
-                  <img loading="lazy" src="/mockup2.png" alt="Goliath gegen Alle Mock Up" className="h-full max-h-[700px] drop-shadow-2xl"/>
+                  <img loading="lazy" src="/mockup2.png" alt="Goliath gegen Alle Mock Up" className="h-full max-h-[400px] md:max-h-[700px] drop-shadow-2xl"/>
                 </div>
                 <div className="w-screen flex flex-col md:flex-row justify-center items-center">
                     <div className="bg-primary w-fit max-w-[95%] flex flex-col justify-center items-center p-12 rounded-xl gap-5">
@@ -170,7 +170,7 @@ export default function Home() {
             </section>
             </div>
             <section className="w-screen h-fit flex justify-center items-center flex-col gap-5">
-              <h1 className="text-5xl" style={{ fontFamily: b_dancing_script.style.fontFamily }}>Schritte unserer Zusammenarbeit im Coaching</h1>
+              <h1 className="text-5xl text-center" style={{ fontFamily: b_dancing_script.style.fontFamily }}>Schritte unserer Zusammenarbeit im Coaching</h1>
               <img loading="lazy" src="/schritte_der_zusammenarbeit_behappy_coaching.png" alt="Schritte der Zusammenarbeit" className="w-screen"/>
               <Link className="text-xl bg-primary text-sand hover:bg-secondary hover:text-primary transition-all duration-300 px-3 py-2 rounded-xl" style={{ fontFamily: poppins.style.fontFamily}} href={"/contact"}>Hier klicken um Kennenlerntermin zu buchen</Link>
             </section>

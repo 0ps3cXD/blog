@@ -4,26 +4,23 @@ export default async function handler(req: any, res: any) {
   if (req.method === 'POST') {
     const event = req.body;
 
-    // Überprüfe, ob es sich um das richtige Ereignis handelt
     if (event.event === 'invitee.created') {
       const invitee = event.payload;
 
-      // Beispiel: Umwandeln der Daten in das Format, das die Meta Conversion API erwartet
       const eventData = {
         event_name: 'Lead',
-        event_time: Math.floor(new Date().getTime() / 1000), // Zeitstempel in Sekunden
+        event_time: Math.floor(new Date().getTime() / 1000),
         user_data: {
-          email: sha256(invitee.email), // E-Mail des Teilnehmers, gehasht mit SHA256
+          email: sha256(invitee.email),
         },
         custom_data: {
-          event_id: invitee.event.id, // ID des Events
-          value: 0, // Du kannst hier den Wert der Conversion angeben, falls vorhanden
-          currency: 'EUR', // Währung der Conversion
+          event_id: invitee.event.id,
+          value: 0,
+          currency: 'EUR',
         },
         action_source: 'website',
       };
 
-      // Sende die Daten an die Meta Conversion API
       const response = await fetch(`https://graph.facebook.com/v13.0/YOUR_PIXEL_ID/events?access_token=YOUR_ACCESS_TOKEN`, {
         method: 'POST',
         headers: {
