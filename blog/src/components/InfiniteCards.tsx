@@ -2,6 +2,7 @@
 
 import cn from "@/lib/cn";
 import React, { useEffect, useState } from "react";
+import { useAnimate } from "framer-motion";
 
 export const InfiniteMovingCards = ({
   items,
