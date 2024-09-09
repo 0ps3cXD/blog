@@ -113,6 +113,7 @@ export default function Coachings() {
           Wartezeit&quot;
         </h1>
         <h2 className="text-neutral-900">Dr. iur. Caroline Bono, Psychologische Beraterin am Zürichsee</h2>
+        {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
         <video src="/video.mov" controls className=""></video>
         <div className="flex flex-col md:flex-row justify-center items-center md:items-baseline gap-6 text-center">
           <div className="max-w-[300px] flex flex-col gap-2">
