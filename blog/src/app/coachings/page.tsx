@@ -152,7 +152,7 @@ export default function Coachings() {
             </div>
             <div className="flex flex-col justify-center items-center">
               <h3 className="font-bold text-primary">Claudia Luft-Steinma</h3>
-              <p>Das Buch spricht mir aus der Seele!</p>
+              <p>Sie spricht mir aus der Seele und versteht mich!</p>
             </div>
           </div>
           <div className="max-w-[300px] flex flex-col gap-2">
@@ -164,10 +164,9 @@ export default function Coachings() {
               <Star />
             </div>
             <div className="flex flex-col justify-center items-center">
-              <h3 className="font-bold text-primary">Pauline Sprengler</h3>
+              <h3 className="font-bold text-primary">Pauline Meier</h3>
               <p>
-                Nachdem ich das Buch gelesen hatte, kannte ich Carolines
-                Geschichte
+                Ich konnte endlich meine Schlafstörung überwinden und sogar meine Kindheitsprobleme aufarbeiten und bin endlich glücklich.
               </p>
             </div>
           </div>
