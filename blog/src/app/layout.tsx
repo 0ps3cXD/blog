@@ -32,7 +32,7 @@ export default function RootLayout({
   const Links = [
     { href: "/", text: "Home" },
     { href: "/books", text: "Bücher" },
-    { href: "/coachings", text: "Coachings" },
+    { href: "/coachings", text: "Psychologische Beratung" },
     { href: "/contact", text: "Kontakt" },
   ];
   return (

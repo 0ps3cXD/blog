@@ -21,7 +21,7 @@ export default function BackToTop() {
 
   return (
     <button
-      className={cn("fixed right-2 md:right-4 p-2 rounded-full bg-primary hover:bg-primary-accent text-secondary transition-all duration-500", show ? "opacity-100 bottom-2 md:bottom-4" : "bottom-[2rem] md:bottom-[-3rem] opacity-0")}
+      className={cn("fixed right-2 md:right-4 p-2 z-50 rounded-full bg-primary hover:bg-primary-accent text-secondary transition-all duration-500", show ? "opacity-100 bottom-2 md:bottom-4" : "bottom-[2rem] md:bottom-[-3rem] opacity-0")}
       /*style={{
         transform: show ? "translateY(0)" : "translateY(20px)",
       }}*/

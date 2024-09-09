@@ -2,9 +2,10 @@
 import cn from "@/lib/cn";
 import Link from "next/link";
 import { useState } from "react";
-import { Poppins } from "next/font/google";
+import { Bebas_Neue, Poppins } from "next/font/google";
 
-const poppins = Poppins({ weight: "600", subsets: ["latin"] });
+const poppins = Poppins({ weight: "500", subsets: ["latin"] });
+const bebas = Bebas_Neue({ weight: "400", subsets: ["latin"]});
 
 interface Props {
     links: Array<{ href: string, text: string }>
@@ -13,7 +14,7 @@ interface Props {
 export default function Navbar(props: Props) {
     const [show, setShow] = useState(false);
     return (
-        <nav role="navigation" className="w-screen absolute top-0 left-0 flex justify-end md:justify-center items-center bg-white text-primary z-50 h-[50px] font-thin text-2xl" style={{ fontFamily: poppins.style.fontFamily}}>
+        <nav role="navigation" className="w-screen absolute top-0 left-0 flex justify-end md:justify-center items-center bg-transparent text-primary z-50 h-[50px] font-thin text-2xl" style={{ fontFamily: bebas.style.fontFamily}}>
             {/*<div className="flex justify-center items-center ml-6">
                 <Link href={"/"}>
                     <img loading="lazy" src="/logo.png" alt="Logo" className="h-[50px] p-1"/>
@@ -42,7 +43,7 @@ export default function Navbar(props: Props) {
                     </button>
                     <Link href={"/"} className="mb-2 mt-7 transition-colors hover:text-primary-accent">Home</Link>
                     <Link href={"/books"} className="my-2 transition-colors hover:text-primary-accent">Bücher</Link>
-                    <Link href={"/coachings"} className="my-2 transition-colors hover:text-primary-accent">Coachings</Link>
+                    <Link href={"/coachings"} className="my-2 transition-colors hover:text-primary-accent">Psychologische Beratung</Link>
                     <Link href={"/contact"} className="my-2 transition-colors hover:text-primary-accent">Kontakt</Link>
                     <div className="w-full flex justify-center items-center gap-5 mt-5 transition-all">
                         <Link href={"https://www.instagram.com/behappycoaching/"}>
