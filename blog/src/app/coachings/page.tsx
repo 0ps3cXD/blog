@@ -126,7 +126,7 @@ export default function Coachings() {
             </div>
             <div className="flex flex-col justify-center items-center">
               <h3 className="font-bold text-primary">Rudolf</h3>
-              <p>Und das in der Schweiz!</p>
+              <p>Egal ob Zürich oder Online, Caroline half mir in den wichtigsten Situationen.</p>
             </div>
           </div>
           <div className="max-w-[300px] flex flex-col gap-2">
