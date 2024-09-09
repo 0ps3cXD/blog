@@ -138,8 +138,8 @@ export default function Coachings() {
               <Star />
             </div>
             <div className="flex flex-col justify-center items-center">
-              <h3 className="font-bold text-primary">Helge Rafael</h3>
-              <p>Caroline Bono-Hörler schildert sehr spannend</p>
+              <h3 className="font-bold text-primary">Helge</h3>
+              <p>Diese Beratung ging viel tiefgründiger als erwartet, danke!</p>
             </div>
           </div>
           <div className="max-w-[300px] flex flex-col gap-2">
