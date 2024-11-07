@@ -312,15 +312,6 @@ export default function Home() {
                 deine Sitzung und starte noch heute auf deinem Weg zu einem
                 erfüllten Leben.
               </p>
-              <p
-                className="md:text-lg max-w-[90%] md:max-w-[60%] text-center text-pretty"
-                style={{ fontFamily: poppins.style.fontFamily }}
-              >
-                Das Investment in eine einstündige Sitzung liegt bei 220 CHF,
-                aber buche dir vorher gerne unser kostenloses 15-minütiges
-                Kennenlerngespräch und starte noch heute auf deinem Weg zu einem
-                erfüllten Leben.
-              </p>
             </div>
             <div className="w-full flex flex-col gap-5">
               <img

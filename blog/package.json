@@ -13,7 +13,7 @@
     "@types/nodemailer": "^6.4.15",
     "clsx": "^2.1.1",
     "framer-motion": "^11.3.28",
-    "next": "14.2.5",
+    "next": "^14.2.17",
     "node-fetch": "^3.3.2",
     "nodemailer": "^6.9.14",
     "react": "^18",

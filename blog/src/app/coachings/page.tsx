@@ -1,20 +1,32 @@
+"use client"
 import CalendlyWidget from "@/components/CalendlyWidget";
 import Star from "@/components/Star";
 import { Dancing_Script, Poppins } from "next/font/google";
 import Link from "next/link";
+import { useState } from "react";
 const dancing_script = Dancing_Script({ weight: "400", subsets: ["latin"] });
 const b_dancing_script = Dancing_Script({ weight: "700", subsets: ["latin"] });
 const poppins = Poppins({ weight: "400", subsets: ["latin"] });
 
 export default function Coachings() {
+  const [vidSrc, setVidSrc] = useState<string>("/video.mov");
+  const changeVid = () => {
+    if (vidSrc == "/video.mov") {
+      setVidSrc("/video2.mov");
+    }else if (vidSrc == "/video2.mov") {
+      setVidSrc("/video.mov");
+    }
+    console.log("a")
+  }
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center gap-5 md:gap-12 xl:gap-30 pt-[50px] pb-6">
+    <main className="flex min-h-screen flex-col items-center justify-center gap-5 md:gap-12 xl:gap-30 pb-6">
       <img
         loading="lazy"
         src="/hero5.png"
         alt="BeHappyCoaching Hero 5"
         className="w-screen"
       />
+      <CalendlyWidget />
       <section className="w-screen flex flex-col gap-[50px] justify-center items-center transition-all">
         <div className="w-full flex flex-col justify-center items-center gap-5">
           <h1
@@ -114,7 +126,15 @@ export default function Coachings() {
         </h1>
         <h2 className="text-neutral-900">Dr. iur. Caroline Bono, Psychologische Beraterin am Zürichsee</h2>
         {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
-        <video src="/video.mov" controls className=""></video>
+        <video src={vidSrc} controls className=""></video>
+        <div className="w-full flex justify-evenly lg:justify-center items-center gap-2 text-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 hover:cursor-pointer" onClick={() => { changeVid() }}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 hover:cursor-pointer" onClick={() => { changeVid() }}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+          </svg>
+        </div>
         <div className="flex flex-col md:flex-row justify-center items-center md:items-baseline gap-6 text-center">
           <div className="max-w-[300px] flex flex-col gap-2">
             <div className="flex justify-center items-center gap-2">
